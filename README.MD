@@ -85,7 +85,7 @@ command:
             --delete \
             --topic kafka.learning.alerts
 
- - this command is not synchronous because it's need to delete all physical copies of topic's messages in all brokers
+ - [x] this command is not synchronous because it's need to delete all physical copies of topic's messages in all brokers
  - [x] :warning: kafka 2.2+ doesn't need the zookeeper connection string (ex : --zookeeper zookeeper:2181 )
 
 ## connect to zookeeper client
