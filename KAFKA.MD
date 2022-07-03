@@ -12,3 +12,5 @@
 
     :warning: kafka 2.2+ doesn't need the zookeeper connection string (ex : --zookeeper zookeeper:2181 )
 
+    :eight_pointed_black_star:
+
