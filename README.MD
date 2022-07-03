@@ -72,7 +72,7 @@ command:
             --topic kafka.learning.tweets \
             --from-beginning
 
- - :information_source: adding --group option help to create a consumer group
+ - [x] :information_source: adding --group option help to create a consumer group
  - [x] :warning: if you run this command within kafka in a docker container you should specify the internal port 
  - [x] :warning: kafka 2.2+ doesn't need the zookeeper connection string (ex : --zookeeper zookeeper:2181 )
 
