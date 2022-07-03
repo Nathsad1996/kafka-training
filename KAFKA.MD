@@ -1,4 +1,4 @@
-## kafka commands
+# kafka commands
 
 # create topic
 
