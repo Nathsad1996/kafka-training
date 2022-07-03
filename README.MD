@@ -123,3 +123,13 @@ command:
 command:
 
     get /brokers/topics/<topic name>
+
+
+## get current states of offset
+
+command:
+
+        ./kafka-consumer-groups.sh \
+            --bootstrap-server localhost:29092 \
+            --describe \
+            --all-groups
